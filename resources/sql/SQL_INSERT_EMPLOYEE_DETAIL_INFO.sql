@@ -1,0 +1,27 @@
+insert into employee_detail_info(
+	employee_id,
+	adress,
+	station,
+	schooling,
+	cp_number,
+	cp_adress,
+	capacity,
+	insert_user,
+	insert_date,
+	update_user,
+	update_date,
+	delete_flg)
+values(
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	'USER99',
+	CURRENT_TIMESTAMP,
+	'USER99',
+	CURRENT_TIMESTAMP,
+	'0'
+)
